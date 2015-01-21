@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+You can start tracking changes after creating by starting saving meta data. If you don't do it, it will be just a folder with no ability to track changes.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is like a buffering zone which allows you to put the files that are according to your logic should go together. It also prevents making mistakes and saving wrong files.
+So staging area is like a baking form and repository is an oven. Commits are cookies then))
