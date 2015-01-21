@@ -1,0 +1,13 @@
+When we see the files that have been changed since the last working version we focus our attention on  that files where the mistake has been made, so we don't need to check the entire code.
+
+Having access to the history of changes let you see the logic of the code development if it was made by someone else or have a look back to spot the bug if it was wriiten by you, let alone the fact that you feel more confident knowing you can always go back. 
+
+When you choose when to commit your history of commits will be logical and hence useful, however you might forget to save something important you have been working on for a long time and will have to do it again.
+
+When files are interdependent like in a web page saving seperate files separately can lead to confusion. Text files are not usually dependant on others and self-sufficiente e.g.: there is no need to save all doc files in a folder if only one has been changed.
+
+Git log command shows us all the commits that have been done. Then we choose one that we are interested in (based on comments,date etc.) and then we enter git diff command to see how the file changed
+
+Knowing that you always can get back to the previous version allows to you to experiment , try new things without worries to "break" a code.
+
+I am not sure about using git yet
