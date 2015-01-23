@@ -1,35 +1,50 @@
-What happens when you initialize a repository? Why do you need to do it?
+Q: What happens when you initialize a repository? Why do you need to do it?
 
-You can start tracking changes after creating a file by starting saving meta data. If you don't do it, it will be just a folder with no ability to track changes.
+A:	You can start tracking changes after creating a file by starting 
+	saving meta data. If you don't do it, it will be just a folder with 
+	no ability to track changes.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+Q:	How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
 
-Staging area is like a buffering zone which allows you to put the files that are according to your logic should go together. It also prevents making mistakes and saving wrong files.
-So staging area is like a baking form and repository is an oven. Commits are cookies then))
+A:	Staging area is like a buffering zone which allows you to put the files that are 
+	according to your logic should go together. It also prevents making mistakes and 
+	saving wrong files. So staging area is like a baking form and repository is an oven.
+	Commits are cookies then))
 
-How can you use the staging area to make sure you have one commit per logical change?
+Q: How can you use the staging area to make sure you have one commit per logical change?
 
-You can compare a file in the staging area with the working directory and repository to make sure that the next commmiting is neccessary.
+A: 	You can compare a file in the staging area with the working directory and 
+	repository to make sure that the next commmiting is neccessary.
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Q:	What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
 
-Having multiple branches allows you to go different ways. If, for instance, you want to introduce a new feature into your code, you can do it in a separate branch. So in case the new idea doesn't pan out your main branch will be intact and its history won't contain any unnecessary information.
+A:	Having multiple branches allows you to go different ways. If, for instance, you want to 
+introduce a new feature into your code, you can do it in a separate branch. So in case the 
+new idea doesn't pan out your main branch will be intact and its history won't contain any 
+unnecessary information.
 
-How do the diagrams help you visualize the branch structure? 
+Q: How do the diagrams help you visualize the branch structure? 
 
-Drawing diagrams helps you not to get lost in the woods. Committing changes while being in a specific branch may help you to see whether the change will be seen from other branches. It is also important if you create a branch of branch (of a branch)) as subsequent merging might be a pain in a neck if you aren't sure about the structure of a repository. 
+A:	Drawing diagrams helps you not to get lost in the woods. Committing changes while being 
+	in a specific branch may help you to see whether the change will be seen from other branches.
+	It is also important if you create a branch of branch (of a branch)) as subsequent merging 
+	might be a pain in a neck if you aren't sure about the structure of a repository. 
 
-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Q:	What is the result of merging two branches together? Why do we represent it in the diagram 
+the way we do?
 
-We get one branch with the changes introduced in both of them. So we have access to the history of changes. 
+A: We get one branch with the changes introduced in both of them. So we have access to the 
+history of changes. 
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Q:	What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
-+ Automatic merging saves time
-+ No need to go through every line of code
-+ Less error-prone
+A:	+ Automatic merging saves time
+	+ No need to go through every line of code
+	+ Less error-prone
 
-- Some changes might be redundant or even may introduce bugs
-- Code logic might be harmed
+	- Some changes might be redundant or even may introduce bugs
+	- Code logic might be harmed
 
 

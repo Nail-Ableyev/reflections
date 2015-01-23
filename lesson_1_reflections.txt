@@ -1,32 +1,45 @@
 Q: How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
-A: When we see the files that have been changed since the last working version we focus our attention on  these files where a mistake has been made, so we don't need to check the entire code.
+A: 	When we see the files that have been changed since the last working version we 
+	focus our attention on  these files where a mistake has been made, 
+	so we don't need to check the entire code.
 
 Q: How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
-A: Having access to the history of changes let you see the logic of the code development if it was made by someone else or have a look back to spot the bug if it was written by you, let alone the fact that you feel more confident knowing you can go back anytime. 
+A: 	Having access to the history of changes let you see the logic of the code development
+ 	if it was made by someone else or have a look back to spot the bug if it was
+ 	written by you, let alone the fact that you feel more confident knowing you can 
+ 	go back anytime. 
 
 Q: What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-A: When you choose when to commit your history of commits will be logical and hence useful, however you might forget to save something important you have been working on for a long time and will have to do it again.
+A: 	When you choose when to commit your history of commits will be logical and hence useful
+	however you might forget to save something important you have been working on 
+	for a long time and will have to do it again.
 
 Q: Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-A: When files are interdependent like in a web page, saving separate files separately can lead to confusion. Text files are not usually dependent on others and are self-sufficient e.g.: there is no need to save all doc files in a folder if only one has been changed.
+A: 	When files are interdependent like in a web page, saving separate files separately 
+	can lead to confusion. Text files are not usually dependent on others and are 
+	self-sufficient e.g.: there is no need to save all doc files in a folder if only 
+	one has been changed.
 
 Q: How can you use the commands git log and git diff to view the history of files?
 
-A: Git log command shows us all the commits that have been done. Then we choose one that we are interested in (based on comments,date etc.) and then we enter git diff command to see how the file changed.
+A: 	Git log command shows us all the commits that have been done. Then we choose one 
+	that we are interested in (based on comments,date etc.) and then we enter git diff 
+	command to see how the file changed.
 
 Q: How might using version control make you more confident to make changes that
 could break something?
 
-A: Knowing that you always can get back to the previous version allows to you to experiment , try new things without worries to "break" a code.
+A: 	Knowing that you always can get back to the previous version allows to you to 
+	experiment, try new things without worries to "break" a code.
 
 Q: Now that you have your workspace set up, what do you want to try using Git for?
 
